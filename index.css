@@ -1,0 +1,31 @@
+@import url(PageAsso.css);
+
+*, ::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    overflow: hidden;
+    
+}
+
+:root {
+    --varPrimaire: rgba(32,32,32,1);
+    --varSecondaire : rgba(112,208,56,1);
+    --varTertiaire: rgba(255,255,255,1);
+    --varGrisclair: rgba(255,255,255,0.2);
+    --varSombre: rgba(16,16,16,1);
+    --varNoirExtra: rgba(0,0,0,1);
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+
