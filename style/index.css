@@ -1,4 +1,5 @@
-@import url(PageAsso.css);
+@import url(/style/header.css);
+@import url(/style/PageAsso.css);
 
 *, ::before,
 ::after {
@@ -8,23 +9,36 @@
     text-decoration: none;
     list-style-type: none;
     font-family: sans-serif;
-    overflow: hidden;
-    
 }
 
+/* 
 :root {
-    --varPrimaire: rgba(32,32,32,1);
     --varSecondaire : rgba(112,208,56,1);
     --varTertiaire: rgba(255,255,255,1);
     --varGrisclair: rgba(255,255,255,0.2);
     --varSombre: rgba(16,16,16,1);
     --varNoirExtra: rgba(0,0,0,1);
-}
+} */
+
 
 body
 {
     height: 100%;
     width: 100%;
+    background-color:rgba(32,32,32,1);
+}
+
+.toggle div /* <div> dans <div class="contentTabs"> */
+{
+    display: none;
+    /* Ne l'affiche pas */
+
+}
+
+.toggle div.active /* <div class="active"> dans <div class="contentTabs"> */
+{
+    display: block;
+    /* Affiche la div */
 }
 
 
