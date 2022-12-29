@@ -1,11 +1,12 @@
-if(document.querySelector('.assoMenuBar'))
+/* Onglets */
+if(document.querySelector('.AssoMenubar'))
 /* Si un <button> dans un <div class="buttonsTabs"> existe fait ce code */
 {
     /* Sélectionne tous les <button> dans <div class="buttonsTabs"> en les mettant dans un tableau */
-    const buttonsTab = document.querySelectorAll('.assoMenuBar button');
+    const buttonsTab = document.querySelectorAll('.AssoMenubar button');
 
     /* Sélectionne toutes les <div> dans <div class="contentTabs"> en les mettant dans un tableau */
-    const tabs = document.querySelectorAll('.assoMenuBar div');
+    const tabs = document.querySelectorAll('.toggle div');
 
     /* 
         Un tableau en javascript commence à l'index 0
@@ -46,5 +47,3 @@ if(document.querySelector('.assoMenuBar'))
         })
     }
 }
-
-

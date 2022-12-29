@@ -1,60 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Les associations</title>
-</head>
-<body>
-
-    <!----------------------------------------HEADER---------------------------------------------->
+    <html lang="fr">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Z-Event</title>
+        <link rel="shortcut icon" href="/ressources/icone/zevent-favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+      </head>
     
-    <header>
-        <h1>
-          <a href="index.html"
-            ><img class="Logo" src="/ressources/logo/zevent-logo.webp" alt="Logo Zevent"
-          /></a>
-        </h1>
-
-        <nav>
-            <div id="Lien" class="Lien">
-                 <ul>
-                     <li><a href="index.html">ACCUEIL</a></li>
-                    <li><a href="">LES ASSOCIATIONS</a></li>
-                    <li><a href="">LES STATS</a></li>
-                    <li><a href="/pages/clips.html">LES CLIPS</a></li>
+      <body>
+        <div class="container">
+    
+          <!--------------------------NAVIGATION------------------------------------------------>
+    
+          <header>
+            <h1>
+              <a href="index.html"
+                ><img class="Logo" src="/ressources/logo/zevent-logo.webp" alt="Logo Zevent"
+              /></a>
+            </h1>
+    
+            <nav>
+              <div  class="Lien">
+                <ul>
+                  <li><a href="index.html">ACCUEIL</a></li>
+                  <li><a href="">LES ASSOCIATIONS</a></li>
+                  <li><a href="/pages/clips.html">LES CLIPS</a></li>
+                  <li><a href="">LES STATS</a></li>
                 </ul>
-            </div>
-            <div class="navbar2">
+              </div>
+            <div class="toggle">
+                <img src="/ressources/icone/hamburger.svg" class="ouvrir" width="30px" alt="">
+                <img src="/ressources/icone/close.svg" class="fermer" width="30px" alt="">
+              </div>
+              <div class="navbar2">
                 <li><a href=""><box-icon name='home-alt-2' type="solid" color="white"></box-icon></a></li>
                 <li><a href=""><box-icon name='building' type='solid'color="white" ></box-icon></a></li>
+                <li><a href=""><box-icon name='youtube' type='logo' color="white" ></box-icon></a></li>
                 <li><a href=""><box-icon name='stats' color="white" ></box-icon></a></li>
-                 <li><a href=""><box-icon name='youtube' type='logo' color="white" ></box-icon></a></li>
-            </div>
-            <div class="reseauxSociaux">
+              </div>
+              <div class="reseauxSociaux">
                 <div>
                   <a href="https://www.twitter.com/" target="_blank"><box-icon type="logo" color="white" name="twitter"></box-icon></a>
                 </div>
                 <div>
-                 <a href="https://www.instagram.com/" target="blank"><box-icon type='logo' color="white" name='instagram-alt'></box-icon></a>
+                  <a href="https://www.instagram.com/" target="blank"><box-icon type='logo' color="white" name='instagram-alt'></box-icon></a>
                 </div>
                 <div>
-                    <a href="https://www.reddit.com/" target="_blank"><box-icon name='reddit' color="white" type='logo' ></box-icon></a>
+                  <a href="https://www.reddit.com/" target="_blank"><box-icon name='reddit' color="white" type='logo' ></box-icon></a>
                 </div>
-            </div>
-        </nav>
-    </header>
-
-      
-    <div class="containerGlobal">
-        <main>
+              </div>
+            </nav>
+          </header>
+    
+          <!----------------------------------------BANNIERES---------------------------------------------->
+          <main>
             <div class="banner">
-                <img src="/ressources/banner/zevent-banner.webp" alt="" />
+                <img src="/ressources/banner/zevent-banner.webp" alt="" width="1400px" />
             </div>
-
+    
 <!----------------------------------------BIG CONTAINER ASSOCIATION PAGE---------------------------------------------->
     
             
@@ -391,7 +397,7 @@
 
     <script src="https://kit.fontawesome.com/2680292c94.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="/app.js"></script>
+    <script src="/javascript/app.js"></script>
     
 </body>
 </html>
