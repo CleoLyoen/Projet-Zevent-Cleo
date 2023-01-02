@@ -1,5 +1,5 @@
 
-
+/* Big Container Asso global ajustment */
 .ContainerAsso {
     width : 50%;
     margin: 10% auto ;
@@ -7,13 +7,16 @@
 
 .ContainerAsso p, ul, li{
     text-align: justify;
+    list-style-position: inside;
 }
+
+/* link color with variable */
 
 a {
     color: var(--varSecondaire);
 }
 
-
+/* Titles ajustment with font and padding */
 
 h1 {
     font-size: 4rem;
@@ -37,6 +40,8 @@ h3 {
     margin: 20px 0 20px;
 }
 
+/* Shadow on each picture/logo  */
+
 .fdf, .Sea_Sheperd, .lpo, .wwf, .LogoTFTP,.sea_cleaners{
     width: 25%;
     filter: drop-shadow(2px 2px 0px var(--varGrisclair));
@@ -49,9 +54,12 @@ img{
     padding-top:22px ;
 }
 
+/* Video Youtube ajustment */
 iframe{
     width: 100%;
 }
+
+/* Ajustment on each div in big toggle class */
 
 .toggle div{
     line-height: 1.5;
@@ -59,6 +67,22 @@ iframe{
 }
 .toggle div p{
     font-family: 'Quicksand', cursive;
+}
+
+/* Button site design */
+
+.ButtonSite {
+    padding : 0.60em 0.90em;
+    text-decoration: none;
+    background-color: var(--varSecondaire);
+   color: var(--varTertiaire);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-shadow:1px 1px 5px var(--varNoirExtra);
+    font-weight: bold;
 }
 
 .ButtonSite + p{
@@ -70,6 +94,8 @@ iframe{
    display: flex;
    justify-content: center;
 }
+
+/* Barre d'onglets */
 
 .assoMenuBar {
     gap: 12px;
@@ -97,6 +123,7 @@ iframe{
     background : var(--varSecondaire);
 }
 
+/* Statistics sections with border on Sea Sheperd, LPO, WWF */
 .stats_section {
     border: 1px solid var(--varTertiaire);
     border-radius: 5px;
@@ -104,8 +131,8 @@ iframe{
     align-items: flex-start;
     flex-direction: column;
     padding: 10px 15px;
-    margin: 20px;
-    line-height: 1.8;
+    margin: 22px;
+    line-height: 1.5;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -114,31 +141,33 @@ iframe{
 
 .stats_section h4 {
     color: var(--varSecondaire);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 
-.en_savoir_plus{
-    text-decoration: underline;
-}
 
-.ButtonSite {
-    padding : 0.60em 0.90em;
-    background-color: var(--varSecondaire);
-   color: var(--varTertiaire);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    text-shadow:1px 1px 5px var(--varNoirExtra);
-    font-weight: bold;
-}
+/* LPO Pictures Section */
 
 .AnimalsPictures {
     width: 384px;
     height: 256px;
 }
+
+.Pictures {
+    display: flex;
+    padding: 10px;
+}
+
+.loutre p {
+    text-align: center;
+}
+
+.rapace p {
+    text-align: center;
+}
+
+
+/* button container on page WWF */
 
 .container_link{
     width: 100%;
@@ -162,6 +191,15 @@ color: var(--varTertiaire);
 text-shadow: 1px 1px 5px var(--varNoirExtra);
 }
 
+.linkslpo {
+    display: flex;
+}
+
+.linkslpo a {
+    padding-inline: 10px;
+}
+
+/* Responsive on mobile */
 
 @media screen and (max-width:1076px){
     .ContainerAsso{
