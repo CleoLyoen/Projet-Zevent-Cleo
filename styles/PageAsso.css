@@ -199,6 +199,7 @@ text-shadow: 1px 1px 5px var(--varNoirExtra);
     padding-inline: 10px;
 }
 
+
 /* Responsive on mobile */
 
 @media screen and (max-width:1076px){

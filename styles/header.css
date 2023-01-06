@@ -19,6 +19,7 @@ header .Lien {
     display: flex;
     align-items: center;
     background-color:rgba(0, 0, 0, 0.306);
+    
    
     
 }
@@ -30,6 +31,8 @@ header .Lien {
     margin:0 2rem;
     
 }
+
+
 
 .Lien li a {
     color: var(--varTertiaire);
